@@ -1,0 +1,71 @@
+/* ============== NAVBAR =============== */
+@media only screen and (max-width: 768px) {
+    .nav-menu {
+        position: fixed;
+        right: -110%;
+        top: 60px;
+        flex-direction: column;
+        background-color: #000;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        z-index: 10;
+        box-shadow: 0 10px 27px rgba(255, 255, 255, 0.3);
+    }
+
+    .nav-menu.active {
+        right: 0;
+    }
+
+    .nav-item {
+        margin: 1.5rem 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+@media (max-width: 768px) {
+    .banner h1 {
+        font-size: 5rem;
+        letter-spacing: 4px;
+    }
+    .about .content {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .about .right-col {
+        width: 80%;
+        margin: auto;
+    }
+    .banner-img {
+        position: relative;
+        margin: 60px auto;
+        width: 90%;
+    }
+
+    .contact-form {
+        width: 95%;
+    }
+    .copyright {
+        display: none;
+    }
+}
+
+
+@media (max-width: 534px) {
+    .banner h1 {
+        font-size: 3rem;
+    }
+    .section-heading {
+        font-size: 2rem;
+    }
+    .content {
+        padding-top: 90px;
+    }
+}
